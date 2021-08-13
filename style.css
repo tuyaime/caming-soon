@@ -1,0 +1,67 @@
+font-face {
+    font-family: libre Franklin;
+    src: url(LibreFranklin-VariableFont_wght);
+}
+
+body {
+    background-color: hsl(220, 10%, 94%);
+    text-align: center;
+    padding-top: 40px;
+}
+
+#notify {
+    background-color: hsl(223, 87%, 63%);
+    border: none;
+    border-radius: 30px;
+    /* color: white; */
+    font-size: 10px;
+    font-weight: 200;
+    /* max-width: 100%; */
+    /* height: 30px; */
+    cursor: pointer;
+    padding: 15px 40px;
+    margin-left: 20px;
+}
+
+h2 {
+    /* font-family: libre Franklin; */
+    color: hsl(0, 0%, 59%);
+    font-weight: 300;
+    font-size: 40px;
+}
+
+span {
+    font-family: libre Franklin;
+    color: hsl(209, 33%, 12%);
+    font-weight: 700;
+}
+
+#email_input {
+    border-radius: 30px;
+    font-family: libre Franklin;
+    font-size: 16px;
+    border: 1px solid hsl(223, 100%, 88%);
+    width: 325px;
+    max-width: 100%;
+    /* height: 40px; */
+    padding: 15px 25px;
+}
+
+#image {
+    max-width: 625px;
+    height: 50%;
+}
+
+i {
+    margin: 2px;
+    width: 45px;
+    height: 45px;
+}
+
+.ftr {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
