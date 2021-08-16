@@ -8,11 +8,12 @@ body {
     text-align: center;
     margin-top: 60px;
     /* max-width: 625px; */
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 #notify {
     background-color: hsl(223, 87%, 63%);
+    color: white;
     border: none;
     border-radius: 30px;
     /* color: white; */
@@ -23,6 +24,7 @@ body {
     cursor: pointer;
     padding: 15px 40px;
     margin-left: 20px;
+    box-shadow: 0 5px 5px;
 }
 
 p {
@@ -49,13 +51,14 @@ span {
     border: 1px solid hsl(223, 100%, 88%);
     width: 325px;
     max-width: 100%;
-    /* height: 40px; */
     padding: 15px 25px;
+    /* color: hsl(223, 100%, 88%); */
     cursor: pointer;
 }
 
 #image {
     max-width: 625px;
+    min-width: 350px;
     margin: 60px 0;
 }
 
@@ -75,20 +78,26 @@ i {
 }
 
 .fc:hover {
-    background-color: hsl(354, 15%, 60%);
+    background-color: hsl(223, 87%, 63%);
+    border-color: hsl(223, 87%, 63%);
+    color: white;
 }
 
 .tw:hover {
-    background-color: hsl(354, 15%, 60%);
+    background-color: hsl(223, 87%, 63%);
+    border-color: hsl(223, 87%, 63%);
+    color: white;
 }
 
 .in:hover {
-    background-color: hsl(354, 15%, 60%);
+    background-color: hsl(223, 87%, 63%);
+    border-color: hsl(223, 87%, 63%);
+    color: white;
     ;
 }
 
 #notify:hover {
-    background-color: hsl(354, 100%, 66%);
+    background-color: hsl(223, 87%, 63%);
 }
 
 i {
@@ -99,4 +108,31 @@ i {
     height: 20px;
     padding-top: 5px;
     margin: 6px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: hsl(240, 100%, 100%);
+        padding: 8% 3% 3% 4%;
+        margin: 2% 2% 2% 2%;
+    }
+    #notify {
+        margin: 2%;
+        width: 90%;
+    }
+    #email_input {
+        max-width: 90%;
+    }
+    #image {
+        min-width: 375px;
+        margin: 40px 0;
+        width: 50%;
+    }
+    h2 {
+        width: 90%;
+        font-size: 30px
+    }
+    /* span {
+        width: 5%;
+    } */
 }
